@@ -1,0 +1,174 @@
+
+html, body {
+   max-width: 100%;
+   overflow-x: hidden;
+}
+
+.colorBox{
+    /* border: 20rem; */
+    position: absolute;
+    top: 10rem;
+    left: 34.5rem;
+    width: 425px;
+    height: 400px;
+    padding-top: 40px;
+    border: 20px solid rgb(236, 162, 2);
+    
+    /* text-align: center; */
+    background-color: rgb(255 255 255 / 64%);
+
+}
+
+.bigPic{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    /* height:180vh; */
+    min-height:200px;
+}
+
+.blackCard{
+    width: 250px;
+    height: 200px;
+    background: rgba(0, 0, 0, 0.774);
+}
+
+.h5text{
+    position: absolute;
+    top:35px;
+    left: 50px;
+    font-weight: 700;
+    font-size: x-large;
+
+}
+.dot1 {
+    position: absolute;
+    top: 70px;
+    left: 70px;
+    height: 100px;
+    width: 100px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    background: rgb(255, 216, 133) ;
+}
+
+.blackCard:hover {
+background-color: rgb(236, 162, 2);
+transition: 0.5s;
+}
+.dot1:hover{
+background-color: white;
+transition: 0.5s;
+}
+
+.BorderLines {
+display: flex;
+flex-direction: row;
+/* justify-content: center;  -------->  not working in this case here  */
+width: 450px;
+position: absolute;
+left: 32rem;
+}
+
+.BorderLines:before, .BorderLines:after { 
+content: "";
+flex: 1 1;
+border-bottom: 2px solid rgb(236, 162, 2);
+margin: auto 1rem;
+
+
+/* content:'\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0';
+text-decoration: line-through;
+margin: auto 0.5em; */
+
+}
+
+.BorderLines1 {
+display: flex;
+flex-direction: row;
+width:250px;
+}
+
+.BorderLines1:after {
+content: "";
+flex: 1 1;
+border-bottom: 2px solid rgb(236, 162, 2);
+margin: auto 1rem;
+}
+
+.highLight {
+background-color: white;
+color: black;
+width: 170px;
+height:23px;
+position: absolute;
+top: 170px;
+}
+
+.imageCover {
+background-image: url("images/Screenshot 2021-09-12 134217.png");
+/* background: url("https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs3/107270231/original/46d4c2f3cd5af19208915886029dc9fa87f75033/design-a-realistic-3d-interior-design-with-3ds-max-autocad-91dd97b7-fb20-4bc6-8e05-7c92afec3eed.jpg"); */
+background-repeat: no-repeat;
+background-size: cover;
+background-position: bottom;
+max-width: "100%";
+padding: 4rem;
+}
+
+.cardBtn {
+color: white;
+background-color:rgb(255, 153, 0);
+border: 0;
+height: 38px;
+padding-left: 40px;
+padding-right: 40px;
+}
+
+.blackToOrange{
+/* position: absolute;
+top: 70px;
+left: 70px; */
+height: 50px;
+width: 50px;
+background-color: #bbb;
+border-radius: 50%;
+display: inline-block;
+background: white ;
+
+}
+
+.blackToOrange:hover {
+background-color: rgb(236, 162, 2);
+transition: 0.5s;
+}
+
+.areaFeature {
+background-color: rgba(0, 0, 0, 0.87);
+color: white; 
+}
+
+.DatE{
+  color: white;
+  position: absolute;
+   right: 10px;
+  bottom: 360px;
+}
+
+.cardBtns{
+
+    color: white !important;
+    background-color: rgb(255, 153, 0);
+    /* border: 0; */
+    height: 38px;
+    border-radius: 12px;
+    padding-left: 30px;
+    padding-top: 10px;
+    /* padding-right: 40px;*/
+}
+
+a{
+
+    color: #ffffff;
+}
